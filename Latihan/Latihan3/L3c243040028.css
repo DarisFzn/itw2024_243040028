@@ -1,0 +1,14 @@
+body {background-color: aqua;}
+body {font-family: 'georgia'}
+h1{font-family: 'comic sans ms'}
+h1{font-size: 60px}
+h1{color: blue}
+h4 {text-align: right;}
+h4{font-style: italic;}
+body{text-align: justify;}
+h1{text-align: center;}
+a#white{color: white;}
+p{text-align: center;}
+p#orange{color: orange;}
+p{font-size: large;}
+p#line{line-height: 2;}
