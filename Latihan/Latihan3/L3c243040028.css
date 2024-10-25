@@ -1,14 +1,49 @@
-body {background-color: aqua;}
-body {font-family: 'georgia'}
-h1{font-family: 'comic sans ms'}
-h1{font-size: 60px}
-h1{color: blue}
-h4 {text-align: right;}
-h4{font-style: italic;}
-body{text-align: justify;}
-h1{text-align: center;}
-a#white{color: white;}
-p{text-align: center;}
-p#orange{color: orange;}
-p{font-size: large;}
-p#line{line-height: 2;}
+body {
+    background-color:aqua;
+    font-family:Georgia; 
+}
+
+h1 {
+    color: darkblue; 
+    font-family: comic sans ms;
+    font-size: 60px;
+    text-align: center;
+   }
+
+    .daris {
+         color: white;
+         font-variant: small-caps;
+        }
+
+    .ahmad {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+p {text-align: justify;}
+
+    .p1 {
+         text-align: center;
+         color: orange;
+    }
+
+    .p2 {
+        text-align: right; 
+        line-height: 2;
+    }
+
+    .daris:hover {
+        color: red;
+        text-decoration: none;
+       }
+
+    .ahmad:hover {
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+       }
