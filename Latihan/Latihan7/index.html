@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Art Store</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navigation">
+
+        <nav class="menu">
+
+            <div class="brand">
+                <h1>Dark Art Store</h1>
+            </div>
+
+            <ul class="menu-list">
+                <li><a  href="">Home</a></li>
+                <li><a  href="https://shopee.co.id/hereticstore">Products</a></li>
+                <li><a  href="#About">About</a></li>
+                <li><a  href="#gallery">Gallery</a></li>
+            </ul>
+
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        
+        </nav>
+
+
+    </div>
+
+    <div class="container">
+
+        <header class="header">
+
+            <div class="features feature-1">
+                <h4 class="price">IDR 280k</h4>
+                <p class="item">Longsleeve</p>
+            </div>
+
+            <div class="features feature-2">
+                <h4 class="price">IDR 280k</h4>
+                <p class="item">Longsleeve</p>
+            </div>
+
+            <div class="features feature-3">
+                <h4 class="price">IDR 250k</h4>
+                <p class="item">Baju</p>
+            </div>
+
+            <div class="features feature-4">
+                <h4 class="price">IDR 300k</h4>
+                <p class="item">Hoodie</p>
+            </div>
+
+            <div class="features feature-5">
+                <h4 class="price">IDR 200k</h4>
+                <p class="item">Sendal</p>
+            </div>
+
+        </header>
+
+
+        <div class="About">
+            <h2 id="About">~ Dark Art ~</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure quaerat adipisci eveniet perferendis ipsum dolore possimus error magnam perspiciatis laboriosam, consequuntur at, facere asperiores corporis blanditiis quo nesciunt explicabo quasi repellat enim cumque deserunt eaque sed! Soluta, temporibus vel rerum cupiditate fugit ullam! Dolore porro animi molestiae at ex!
+            </p>
+        </div>
+
+
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/1.jpg" alt="" />
+            <img src="img/2.jpg" alt="" />
+            <img src="img/3.jpg" alt="" />
+            <img src="img/4.jpg" alt="" />
+            <img src="img/5.jpg" alt="" />
+            <img src="img/6.jpg" alt="" />
+            <img src="img/7.jpg" alt="" />
+            <img src="img/8.jpg" alt="" />
+            <img src="img/9.jpg" alt="" />
+            <img src="img/10.jpg" alt="" />
+            <img src="img/11.jpg" alt="" />
+            <img src="img/12.jpg" alt="" />
+        </section>
+
+
+
+    </div>
+
+
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input')
+        const nav = document.querySelector('nav ul')
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+
+
+    
+</body>
+</html>
